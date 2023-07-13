@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/demon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+        integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/contact.css">
+
+    <title>RTD</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="cursor"></div>
+        <header>
+            <div class="sidemenu">
+                <div class="sidemenu_close" onclick="hamburger_toggle_close()">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em"
+                        width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M685.4 354.8c0-4.4-3.6-8-8-8l-66 .3L512 465.6l-99.3-118.4-66.1-.3c-4.4 0-8 3.5-8 8 0 1.9.7 3.7 1.9 5.2l130.1 155L340.5 670a8.32 8.32 0 0 0-1.9 5.2c0 4.4 3.6 8 8 8l66.1-.3L512 564.4l99.3 118.4 66 .3c4.4 0 8-3.5 8-8 0-1.9-.7-3.7-1.9-5.2L553.5 515l130.1-155c1.2-1.4 1.8-3.3 1.8-5.2z">
+                        </path>
+                        <path
+                            d="M512 65C264.6 65 64 265.6 64 513s200.6 448 448 448 448-200.6 448-448S759.4 65 512 65zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="sidemenu_nav">
+                    <div class="sidemenu_active">
+                        <a href="/routes/index.html">
+
+                            HOME
+                        </a>
+                    </div>
+                    <div>
+                        <a href="/routes/services.html"> SERVICES
+                        </a>
+                    </div>
+                    <div>
+                        <a href="/routes/contact.html">
+                            CONTACT
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <nav>
+                <div class="header_logo">
+                    <a href="/routes/index.html">
+
+                        <img src="/assets/logo.png" alt="logo" srcset="" width="200px" height="30px">
+                    </a>
+                </div>
+                <div class="header_nav">
+                    <div class="header_nav_content">
+                        <span class="">
+                            <a href="/routes/index.html" style="text-decoration: none; color: white;">
+                                Home
+
+                            </a>
+                        </span>
+                        <span class="">
+                            <a href="/routes/services.html" style="text-decoration: none; color: white;">
+                                Services
+
+                            </a>
+                        </span>
+                        <span class="">
+                            <a href="/routes/contact.html" style="text-decoration: none; color: white;">
+
+                                Contact
+                            </a>
+                        </span>
+                    </div>
+                </div>
+                <div class="header_cta" style="visibility:visible"><a href="#">
+                        <!-- <div class="header_cta_btn">
+                            <div style="display:block">Hire me!</div>
+                        </div> -->
+                    </a>
+                </div>
+                <div class="header_hamburger" onclick="hamburger_toggle_open()">
+                    <div class="header_ham"></div>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="contact_left">
+                <div class="contact_left_content">
+                    <div class="contact_heading">
+                        <h3>LET'S GET IN TOUCH</h3>
+                        <p>No hassle of form filling, just ping me on:</p>
+                    </div>
+                    <div class="contact_socials">
+                        <span class="contact_socials_list">
+                            <span class="contact_social">
+                                <span>
+                                    <a href="https://www.instagram.com/bharatjangirr/"
+                                        style="text-decoration: none;border: none;color:rgb(120,4,160);">
+                                        <i class="fa-brands fa-instagram fa-shake fa-2xl" style="size: 2em;"></i>
+
+                                    </a>
+                                </span>
+                            </span>
+                            <span class="contact_social">
+                                <span>
+                                    <a href="https://www.snapchat.com/add/bharatjangirr/">
+                                        <i class="fa-brands fa-snapchat fa-shake fa-2xl" style="color: yellow;"></i>
+
+                                    </a>
+                                </span>
+                            </span>
+                            <span class="contact_social">
+                                <span>
+                                    <a href="https://wa.me/918058155647/?text=hey!%20bro%20what's%20up">
+
+                                        <i class="fa-brands fa-whatsapp fa-shake fa-2xl" style="color: #3ede12;">
+                                        </i>
+                                    </a>
+
+                                </span>
+                            </span>
+                        </span>
+                    </div>
+                    <div class="contact_direct">
+                        <a href="tel:+918779627492"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M877.1 238.7L770.6 132.3c-13-13-30.4-20.3-48.8-20.3s-35.8 7.2-48.8 20.3L558.3 246.8c-13 13-20.3 30.5-20.3 48.9 0 18.5 7.2 35.8 20.3 48.9l89.6 89.7a405.46 405.46 0 0 1-86.4 127.3c-36.7 36.9-79.6 66-127.2 86.6l-89.6-89.7c-13-13-30.4-20.3-48.8-20.3a68.2 68.2 0 0 0-48.8 20.3L132.3 673c-13 13-20.3 30.5-20.3 48.9 0 18.5 7.2 35.8 20.3 48.9l106.4 106.4c22.2 22.2 52.8 34.9 84.2 34.9 6.5 0 12.8-.5 19.2-1.6 132.4-21.8 263.8-92.3 369.9-198.3C818 606 888.4 474.6 910.4 342.1c6.3-37.6-6.3-76.3-33.3-103.4zm-37.6 91.5c-19.5 117.9-82.9 235.5-178.4 331s-213 158.9-330.9 178.4c-14.8 2.5-30-2.5-40.8-13.2L184.9 721.9 295.7 611l119.8 120 .9.9 21.6-8a481.29 481.29 0 0 0 285.7-285.8l8-21.6-120.8-120.7 110.8-110.9 104.5 104.5c10.8 10.8 15.8 26 13.3 40.8z">
+                                </path>
+                            </svg> +91 8058155647</a>
+                    </div>
+                    <div class="contact_direct">
+                        <a href="mailto:howuga12@gmail.com"><svg stroke="currentColor" fill="currentColor"
+                                stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M928 160H96c-17.7 0-32 14.3-32 32v640c0 17.7 14.3 32 32 32h832c17.7 0 32-14.3 32-32V192c0-17.7-14.3-32-32-32zm-40 110.8V792H136V270.8l-27.6-21.5 39.3-50.5 42.8 33.3h643.1l42.8-33.3 39.3 50.5-27.7 21.5zM833.6 232L512 482 190.4 232l-42.8-33.3-39.3 50.5 27.6 21.5 341.6 265.6a55.99 55.99 0 0 0 68.7 0L888 270.8l27.6-21.5-39.3-50.5-42.7 33.2z">
+                                </path>
+                            </svg>howuga12@gmail.com</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="contact_right">
+                <div class="contact_right_content">
+                        <img src="/assets/planet.png" loading="lazy" alt="planet" srcset="" height="400" width="400">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="/js/contact.js"></script>
+</body>
+
+</html>
