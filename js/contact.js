@@ -217,7 +217,7 @@ if (links[2].href == currentLocation) {
 const menuItemmobile = document.querySelectorAll('.sidemenu_nav div');
 const linksmobile = document.querySelectorAll('.sidemenu_nav div a')
 const menuLengthMobile = linksmobile.length
-if (linksmobile[0].href == currentLocation) {
-    menuItemmobile[0].classList.add("sidemenu_active")
+if (linksmobile[2].href == currentLocation) {
+    menuItemmobile[2].classList.add("sidemenu_active")
 
 }
