@@ -49,12 +49,14 @@ nav {
     padding: 10px 30px;
     border-radius: 30px;
 }
-.header_cta{
+
+.header_cta {
     /* background-color: red; */
     display: flex;
     width: auto;
 }
-.header_cta a{
+
+.header_cta a {
     text-decoration: none;
 }
 
@@ -88,7 +90,7 @@ nav {
     content: "";
     position: absolute;
     left: 25%;
-    bottom:0px;
+    bottom: 0px;
     width: 100%;
     height: 2px;
     background-color: #18d7fa;
@@ -126,13 +128,13 @@ nav {
     width: 100%;
     height: 100%;
     position: fixed;
-    background-color:white;
+    background-color: white;
 }
 
 .container {
     width: 100%;
     height: 87vh;
-    background-color:black;
+    background-color: black;
     color: #fff;
     display: flex;
     background-image: linear-gradient(to right bottom, #000, rgba(0, 0, 0, .95), rgba(0, 0, 0, .9), rgba(24, 215, 240, .2)), url(/assets/sky.1f385ab8.jpg);
@@ -146,8 +148,8 @@ nav {
     text-align: center;
     justify-content: center;
     flex: 0.5;
-    background-color:transparent;
-    
+    background-color: transparent;
+
 }
 
 .services_right {
@@ -155,7 +157,7 @@ nav {
     justify-content: center;
     align-items: center;
     z-index: 0;
-    background-color:transparent;
+    background-color: transparent;
     flex: 0.5;
 }
 
@@ -197,7 +199,7 @@ nav {
 
 }
 
-.Services_services :hover{
+.Services_services :hover {
     box-shadow: 5px 5px 8px deepskyblue;
 }
 
@@ -207,7 +209,8 @@ nav {
     align-items: center;
     flex-direction: column;
 }
-.Services_cta{
+
+.Services_cta {
     padding: 9px 31.5px;
     width: 48%;
     font-size: 14px;
@@ -221,6 +224,12 @@ nav {
     transition: all .2s;
     margin-top: 5px;
 }
+
+.Services_cta:hover {
+    box-shadow: 3px 3px 9px skyblue;
+}
+
+
 
 .Services_service {
     z-index: 1;
@@ -257,6 +266,7 @@ nav {
     animation: smoke 3s linear infinite;
 
 }
+
 .services_right::before {
     content: '';
     position: absolute;
@@ -321,7 +331,8 @@ nav {
         padding: 15px 25px;
         font-weight: 700;
     }
-    .sidemenu_nav div:hover{
+
+    .sidemenu_nav div:hover {
         transform: scaleX(1.4);
         transition: 0.5s;
     }
@@ -377,6 +388,7 @@ nav {
         animation: smoke 3s linear infinite;
 
     }
+
     .services_right::before {
         content: '';
         position: absolute;
@@ -500,6 +512,11 @@ nav {
         flex-direction: column;
     }
 
+    .Services_cta :hover {
+        box-shadow: 3px 3px 9px skyblue;
+
+    }
+
     .Services_service {
         z-index: 1;
         padding: 10px 5px;
@@ -572,7 +589,8 @@ nav {
         align-items: center;
         /* text-align: center; */
     }
-    .services_right{
+
+    .services_right {
         display: flex;
         flex: 0.4;
         /* height: 40%; */
@@ -610,7 +628,8 @@ nav {
         /* background: green; */
 
     }
-    .Services_services :hover{
+
+    .Services_services :hover {
         box-shadow: 5px 5px 8px deepskyblue;
     }
 
@@ -634,7 +653,8 @@ nav {
         transition: all .2s;
         font-size: 12px;
     }
-    .Services_services :hover{
+
+    .Services_services :hover {
         box-shadow: 5px 5px 8px deepskyblue;
     }
 
@@ -645,7 +665,7 @@ nav {
     .Services_left_content {
         display: block;
         /* background-color: #18d7fa; */
-        margin:auto;
+        margin: auto;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -653,20 +673,24 @@ nav {
         margin-top: 0px;
 
     }
-    .Services_left_content h3{
+
+    .Services_left_content h3 {
         font-size: 27px;
 
     }
-    .Services_left_content p{
+
+    .Services_left_content p {
         font-size: 10px;
 
     }
-    .Services_cta{
+
+    .Services_cta {
         padding: 9px 31.5px;
         width: 70%;
         font-size: 11.2px;
     }
-    .Services_cta :hover{
+
+    .Services_cta :hover {
         box-shadow: 3px 3px 9px skyblue;
 
     }
@@ -690,6 +714,7 @@ nav {
         margin-top: 15px;
 
     }
+
     .services_right::before {
         content: '';
         position: absolute;
