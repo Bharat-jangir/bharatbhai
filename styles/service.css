@@ -197,6 +197,10 @@ nav {
 
 }
 
+.Services_services :hover{
+    box-shadow: 5px 5px 8px deepskyblue;
+}
+
 .Services_ctas {
     display: flex;
     justify-content: center;
@@ -606,6 +610,9 @@ nav {
         /* background: green; */
 
     }
+    .Services_services :hover{
+        box-shadow: 5px 5px 8px deepskyblue;
+    }
 
     .Services_ctas {
         display: flex;
@@ -626,6 +633,9 @@ nav {
         margin: 0 auto;
         transition: all .2s;
         font-size: 12px;
+    }
+    .Services_services :hover{
+        box-shadow: 5px 5px 8px deepskyblue;
     }
 
     .Services_cta_para {
@@ -655,6 +665,10 @@ nav {
         padding: 9px 31.5px;
         width: 70%;
         font-size: 11.2px;
+    }
+    .Services_cta :hover{
+        box-shadow: 3px 3px 9px skyblue;
+
     }
 
     .services_right {
